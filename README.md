@@ -12,5 +12,4 @@ ImageNet事前学習VGG16によるベクトルをt-SNEで次元削減したも�
 ![ダウンロード (1)wetgeg](https://user-images.githubusercontent.com/55880071/185693909-de696ed7-fb00-42ae-b82e-4cb6eb4c1915.png)
 
 提案手法によって抽出されたベクトルをt-SNEで次元削減したもの
-![対象学習後](https://user-images.githubusercontent.com/55880071/185694363-158e05a0-c010-41bc-af35-f3e8ef6542b7.png)
-
+![ダウンロード](https://user-images.githubusercontent.com/55880071/185745671-3aa24bb8-3242-461f-8bd2-0c95a11bd02d.png)
