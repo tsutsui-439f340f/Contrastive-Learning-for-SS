@@ -17,7 +17,7 @@ ImageNet事前学習VGG16によるベクトルをt-SNEで次元削減したも�
 ## 評価
 従来手法( https://github.com/tsutsui-439f340f/Scene-Separation-Detection-rule-based )と比較すると、正解率と未検出数を維持した状態で、誤検出数をかなり減らしていることが分かる。
 
-backborn-VGG16
+backbone-VGG16
 |  システム  |  ACC  | 誤検出数 | 未検出数|
 | ---- | ---- | ---- | ---- |
 | ルールベース処理(pretrained)  | 0.995 | 404 | 3 |
@@ -25,7 +25,7 @@ backborn-VGG16
 | ルールベース処理(CL)  | 0.975 | 225 | 16 |
 | ルールベース処理(CL)+後処理| 0.961 | 86 | 25 |
 
-backborn-ResNet50
+backbone-ResNet50
 
 |  システム  |  ACC  | 誤検出数 | 未検出数|
 | ---- | ---- | ---- | ---- |
