@@ -16,7 +16,8 @@ ImageNet事前学習VGG16によるベクトルをt-SNEで次元削減したも�
 
 ## 評価
 VGG16の従来手法( https://github.com/tsutsui-439f340f/Scene-Separation-Detection-rule-based )と比較すると、正解率と未検出数を維持した状態で、誤検出数をかなり減らしていることが分かる。
-一方、ResNet50をbackboneに使用しているモデルでは、すべての指標で性能が下がった。
+一方、ResNet50をbackboneに使用しているモデルでは、すべての指標で性能が下がった。\
+
 backbone-VGG16
 |  システム  |  ACC  | 誤検出数 | 未検出数|
 | ---- | ---- | ---- | ---- |
