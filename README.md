@@ -15,8 +15,8 @@ ImageNet事前学習VGG16によるベクトルをt-SNEで次元削減したも�
 ![ダウンロード](https://user-images.githubusercontent.com/55880071/185745671-3aa24bb8-3242-461f-8bd2-0c95a11bd02d.png)
 
 ## 評価
-VGG16の従来手法( https://github.com/tsutsui-439f340f/Scene-Separation-Detection-rule-based )と比較すると、正解率と未検出数を維持した状態で、誤検出数をかなり減らしていることが分かる。
-一方、ResNet50をbackboneに使用しているモデルでは、すべてのシステムで性能が下がった。\
+ImageNetで事前学習したVGG16をbackboneに使用している従来手法( https://github.com/tsutsui-439f340f/Scene-Separation-Detection-rule-based )と比較すると、正解率と未検出数を維持した状態で、誤検出数をかなり減らしていることが分かる。
+一方、ImageNetで事前学習したResNet50をbackboneに使用しているモデルでは、すべてのシステムで性能が下がった。\
 
 backbone-VGG16
 |  システム  |  正解率  | 誤検出数 | 未検出数|
@@ -31,6 +31,6 @@ backbone-ResNet50
 |  システム  |  正解率  | 誤検出数 | 未検出数|
 | ---- | ---- | ---- | ---- |
 | ルールベース処理(ImageNet pre-trained)  | 0.981 | 88 | 12 |
-| ルールベース処理(ImageNet pre-trained)+後処理| 0.970 | 47 | 19 |
+| ルールベース処理(ImageNet pre-trained)+後処理| **0.970** | **47** | **19** |
 | ルールベース処理(CL)  | 0.951 | 117 | 31 |
 | ルールベース処理(CL)+後処理| 0.948 | 82 | 33 |
