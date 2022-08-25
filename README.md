@@ -19,7 +19,7 @@ VGG16の従来手法( https://github.com/tsutsui-439f340f/Scene-Separation-Detec
 一方、ResNet50をbackboneに使用しているモデルでは、すべてのシステムで性能が下がった。\
 
 backbone-VGG16
-|  システム  |  ACC  | 誤検出数 | 未検出数|
+|  システム  |  正解率  | 誤検出数 | 未検出数|
 | ---- | ---- | ---- | ---- |
 | ルールベース処理(ImageNet pre-trained)  | 0.995 | 404 | 3 |
 | ルールベース処理(ImageNet pre-trained)+後処理| 0.968 | 158 | 20 |
@@ -28,7 +28,7 @@ backbone-VGG16
 
 backbone-ResNet50
 
-|  システム  |  ACC  | 誤検出数 | 未検出数|
+|  システム  |  正解率  | 誤検出数 | 未検出数|
 | ---- | ---- | ---- | ---- |
 | ルールベース処理(ImageNet pre-trained)  | 0.981 | 88 | 12 |
 | ルールベース処理(ImageNet pre-trained)+後処理| 0.970 | 47 | 19 |
