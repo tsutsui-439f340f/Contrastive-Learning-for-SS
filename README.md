@@ -1,4 +1,4 @@
-# Contrastive-Learning-for-SS
+# Contrastive-Learning-for-SceneSeparation
 
 これまでのルールベースのシーン分離手法はフレームの特徴量抽出にImageNetで事前学習したVGG16やResNet50を使用していた。\
 しかしImageNetは1000個の離散カテゴリの画像データセットであり、動画のシーン分離検出で必要となる時系列情報を考慮していない。\
